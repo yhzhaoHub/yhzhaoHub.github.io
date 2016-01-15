@@ -1,94 +1,10 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>深海大乱斗-7k7k手机小游戏</title>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="full-screen" content="yes"/>
-    <meta name="screen-orientation" content="portrait"/>
-    <meta name="x5-fullscreen" content="true"/>
-    <meta name="360-fullscreen" content="true"/>
-    <style>
-        body, canvas, div {
-            -moz-user-select: none;
-            -webkit-user-select: none;
-            -ms-user-select: none;
-            -khtml-user-select: none;
-            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        }
-    #toolbar {
-		  position: fixed;
-		  bottom: 1%;
-		  text-align: center;
-		  z-index: 99;
-		  margin: auto;
-		  width: 80%;
-		  left: 10%;
-		  z-index: 999;
-		  display: none;
-				  
-				}
-		#toolbar .btn{
-			width: 40%;
-			color: rgb(249, 244, 244);
-			background-color:rgb(5, 70, 118);
-			margin: auto;
-			text-align: center;
-			border-radius: 5px;
-			font-weight: bold;
-			border: none;
-			font-size: 18x;
-			margin: 1%;
-			position: relative;
-			max-width:240px;
-		}
-    </style>
-   <link rel="stylesheet" type="text/css" href="game9g.css">
-   <script src="game9g.js"></script>
+<title>正在跳转</title>
+<meta http-equiv="Content-Language" content="zh-CN">
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">
+<meta http-equiv="refresh" content="0.2;url=http://www.baidu.com">
 </head>
-<body style="padding:0; margin: 0; background: #000;">
-<div id="toolbar" >
-	<img class="btn" ontouchstart="clickMore();" src="more.png"/>	
-</div>
-<script src="res/loading.js"></script>
-<canvas id="gameCanvas" width="800" height="450"></canvas>
-<script  src="game.min.js"></script>
-<script language=javascript>
-        var game9g = new Game9G("shdld");
-        game9g.shareData.title = "击沉所有进犯的敌人舰艇!";
-        game9g.shareData.content = "小心敌人的鱼雷哦!";
-
-		function goHome(){
-			window.location=game9g.homeurl;
-		}
-		function clickMore(){
-			 window.location=game9g.moreurl;
-		}
-		function dp_share(){
-			game9g.share();
-		}
-		function dp_Ranking(){
-			window.location=game9g.homeurl;
-		}
-
-		function showAd(){
-		}
-		function hideAd(){
-		}
-		function dp_submitScore(score){	
-			if(score>0){
-				game9g.score =parseInt(score);
-				game9g.scoreName = "得了"+score+"分";
-				game9g.shareData.title ="我在深海大乱斗中得了"+score+"分,击沉所有进犯的敌人舰艇！";
-				game9g.utils.shareConfirm("你玩深海大乱斗中得了"+score+"分!通知一下小伙伴吧!",dp_share);
-			}
-		}
-	</script>
-	<div style="display: none;">
-		<script type="text/javascript">
-			game9g.utils.tongji();
-		</script>						
-	</div>
+<body>
 </body>
-<script src="http://www.7k7kjs.cn/js/h5/stat.js"></script>
 </html>
